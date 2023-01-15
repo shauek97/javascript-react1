@@ -1,14 +1,14 @@
 
 import Hero from "../components/Hero/Hero.js";
-import SearchForm from "../components/SearchForm/SearchForm.js";
-import List from "../components/List/List.js"
+import Lists from '../components/Lists/Lists';
+import ListForm from "../components/ListForm/ListForm.js";
 
 const Home = () => {
   return (
     <>
-        <Hero />
-        <SearchForm />
-        <List />
+        <Hero />       
+        <Lists />
+        <ListForm />
     </>
   );
 };

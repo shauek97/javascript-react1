@@ -10,7 +10,7 @@ const Column = props => {
     const cards = useSelector(state => getFilteredCards(state, props.id));
     console.log('column render')
     
-
+    
     return (
         <article className={styles.column}>
             <h2 className={styles.title}><span className={styles.icon + ' fa fa-' + props.icon}></span>{props.title}</h2>
@@ -19,6 +19,7 @@ const Column = props => {
                 <CardForm columnId={props.id} action={props.addCard}/>
             </ul>
         </article>);
+        
 };
 
 export default Column;
