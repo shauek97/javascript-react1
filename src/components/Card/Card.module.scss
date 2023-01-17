@@ -16,8 +16,27 @@
     background-color: transparent;
     outline: none;
     border: none;
+    transition: 0.1s;
+}
+
+.star:hover {
+scale: 1.4;
+cursor: pointer;
 }
 
 .active{
     color: gold;
+}
+
+.trash{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    transition: 0.1s;
+}
+
+.trash:hover{
+color: grey;
+scale: 1.4;
+cursor: pointer;
 }
